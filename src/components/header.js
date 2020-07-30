@@ -4,20 +4,20 @@ import { Link } from 'gatsby';
 const Header = () => {
 	return (
 		<header>
-			<h1>Mark Dizon</h1>
+			<h1 className="text-6xl text-center">Mark Dizon</h1>
 			<nav>
-				<ul>
-					<li>
-						<Link to="/">Home</Link>
+				<ul className="flex justify-center">
+					<li className="mr-6">
+						<Link className="text-blue-500 hover:text-blue-800" to="/">Home</Link>
 					</li>
-					<li>
-						<Link to="/about">About</Link>
+					<li className="mr-6">
+						<Link className="text-blue-500 hover:text-blue-800" to="/about">About</Link>
 					</li>
-					<li>
-						<Link to="/blog">Blog</Link>
+					<li className="mr-6">
+						<Link className="text-blue-500 hover:text-blue-800" to="/blog">Blog</Link>
 					</li>
-					<li>
-						<Link to="/contact">Contact</Link>
+					<li className="mr-6">
+						<Link className="text-blue-500 hover:text-blue-800" to="/contact">Contact</Link>
 					</li>
 				</ul>
 			</nav>
